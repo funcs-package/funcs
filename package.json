@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/TruongDuyKhai/funcs.git"
   },
   "scripts": {
     "build": "tsup"
