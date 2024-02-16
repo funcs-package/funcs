@@ -1,6 +1,5 @@
 # funcs
 
-![][workflows-badge-image]
 [![libraries dependency status][libraries-status-image]][libraries-status-url]
 [![libraries sourcerank][libraries-sourcerank-image]][libraries-sourcerank-url]
 [![Release date][release-date-image]][release-url]
@@ -14,17 +13,17 @@
 
 ```shell
 # via npm
-$ npm install funcs --save
+$ npm install @khaidev1012/funcs --save
 
 # via yarn
-$ yarn add funcs
+$ yarn add @khaidev1012/funcs
 ```
 
 ## Usage
 
 ```javascript
-import { percentTage } from "funcs";
-// or const { randomKey } = require('funcs');
+import { percentTage } from "@khaidev1012/funcs";
+// or const { randomKey } = require('@khaidev1012/funcs');
 
 console.log(percentTage(5, 10)); // 50
 ```
@@ -67,7 +66,6 @@ console.log(percentTage(5, 10)); // 50
 [npm-bundle-size-image]: https://img.shields.io/bundlephobia/min/@khaidev1012/funcs
 [download-image]: https://img.shields.io/npm/dt/@khaidev1012/funcs
 [download-url]: https://npmjs.org/package/@khaidev1012/funcs
-[workflows-badge-image]: https://github.com/TruongDuyKhai/funcs/workflows/Test%20CI/badge.svg
 [libraries-status-image]: https://img.shields.io/librariesio/release/npm/@khaidev1012/funcs
 [libraries-sourcerank-image]: https://img.shields.io/librariesio/sourcerank/npm/@khaidev1012/funcs
 [libraries-status-url]: https://libraries.io/github/TruongDuyKhai/funcs
