@@ -69,7 +69,7 @@ console.log(percentTage(5, 10)); // 50
 [libraries-status-image]: https://img.shields.io/librariesio/release/npm/@khaidev1012/funcs
 [libraries-sourcerank-image]: https://img.shields.io/librariesio/sourcerank/npm/@khaidev1012/funcs
 [libraries-status-url]: https://libraries.io/github/TruongDuyKhai/funcs
-[libraries-sourcerank-url]: https://libraries.io/npm/funcs
+[libraries-sourcerank-url]: https://libraries.io/npm/@khaidev1012%2Ffuncs
 [release-date-image]: https://img.shields.io/github/release-date/TruongDuyKhai/funcs
 [release-url]: https://github.com/TruongDuyKhai/funcs/releases
 [license-image]: https://img.shields.io/npm/l/@khaidev1012/funcs
