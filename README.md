@@ -23,7 +23,7 @@ $ yarn add @khaidev1012/funcs
 
 ```javascript
 import { percentTage } from "@khaidev1012/funcs";
-// or const { randomKey } = require('@khaidev1012/funcs');
+// or const { percentTage } = require('@khaidev1012/funcs');
 
 console.log(percentTage(5, 10)); // 50
 ```
