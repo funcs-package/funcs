@@ -1,0 +1,1 @@
+export function firstUpperCase(str: string): string;

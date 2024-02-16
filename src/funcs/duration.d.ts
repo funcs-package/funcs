@@ -1,0 +1,1 @@
+export function duration(duration: number, useMili: boolean): string;

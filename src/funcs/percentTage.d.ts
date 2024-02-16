@@ -1,0 +1,1 @@
+export function percentTage(partialValue: number, totalValue: number): number;

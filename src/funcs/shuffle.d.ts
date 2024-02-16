@@ -1,0 +1,1 @@
+export function shuffle(array?: any[]): any[];
