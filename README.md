@@ -31,6 +31,7 @@ console.log(getBytes(1024)); // 1.00 KB
 ## Functions
 
 - `duration`
+- `fetchWithTimeout`
 - `firstUpperCase`
 - `formatTimeMs`
 - `getBytes`
@@ -48,8 +49,9 @@ console.log(getBytes(1024)); // 1.00 KB
 - `isString`
 - `isUndefined`
 - `isUrl`
-- `percentTage`
+- `percentage`
 - `randomInt`
+- `randomKey`
 - `readFiles`
 - `rgbToHex`
 - `shuffle`
