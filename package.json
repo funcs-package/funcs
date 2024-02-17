@@ -1,6 +1,6 @@
 {
   "name": "@khaidev1012/funcs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Package that synthesis of utility functions",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -10,7 +10,8 @@
     "url": "git+https://github.com/TruongDuyKhai/funcs.git"
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "test": "node ./test/index.js"
   },
   "keywords": [
     "functions",

@@ -22,10 +22,10 @@ $ yarn add @khaidev1012/funcs
 ## Usage
 
 ```javascript
-import { percentTage } from "@khaidev1012/funcs";
-// or const { percentTage } = require('@khaidev1012/funcs');
+import { getBytes } from "@khaidev1012/funcs";
+// or const { getBytes } = require('@khaidev1012/funcs');
 
-console.log(percentTage(5, 10)); // 50
+console.log(getBytes(1024)); // 1.00 KB
 ```
 
 ## Functions

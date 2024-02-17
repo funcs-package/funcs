@@ -1,5 +1,6 @@
 export * from './funcs/color';
 export * from './funcs/duration';
+export * from './funcs/fetchWithTimeout';
 export * from './funcs/firstUpperCase';
 export * from './funcs/formatTimeMs';
 export * from './funcs/getBytes';
