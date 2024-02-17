@@ -1,4 +1,4 @@
-import randomKey from './randomKey.js';
+import { randomKey } from './randomKey.js';
 
 export class Timer {
     static all = new Map();

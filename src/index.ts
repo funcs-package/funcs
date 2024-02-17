@@ -5,7 +5,7 @@ export * from './funcs/formatTimeMs';
 export * from './funcs/getBytes';
 export * from './funcs/getMemory';
 export * from './funcs/isType';
-export * from './funcs/percentTage';
+export * from './funcs/percentage';
 export * from './funcs/randomInt';
 export * from './funcs/randomKey';
 export * from './funcs/readFiles';
