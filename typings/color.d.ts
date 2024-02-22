@@ -1,6 +1,6 @@
-export function intToHex(color: number): string;
+export function intToHex(int: number): string;
 
-export function hexToInt(color: string): number;
+export function hexToInt(hex: string): number;
 
 export function rgbToHex(r: number, g: number, b: number): string;
 

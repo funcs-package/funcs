@@ -1,6 +1,6 @@
 {
   "name": "@khaidev1012/funcs",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "A Package that synthesis of utility functions",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

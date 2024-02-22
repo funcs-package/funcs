@@ -1,5 +1,8 @@
 # funcs
 
+> [!IMPORTANT]
+> The docs are currently under development and will be updated in the next version.
+
 [![libraries dependency status][libraries-status-image]][libraries-status-url]
 [![libraries sourcerank][libraries-sourcerank-image]][libraries-sourcerank-url]
 [![Release date][release-date-image]][release-url]

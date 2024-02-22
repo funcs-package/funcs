@@ -1,31 +1,31 @@
 import { getBytes } from './getBytes.js';
-export function getMemory(object) {
+export function getMemory(value) {
 
     var objectList = [];
-    var stack = [object];
+    var stack = [value];
     var bytes = 0;
 
     while (stack.length) {
-        var value = stack.pop();
+        var v = stack.pop();
 
-        if (typeof value === 'boolean') {
+        if (typeof v === 'boolean') {
             bytes += 4;
         }
-        else if (typeof value === 'string') {
-            bytes += value.length * 2;
+        else if (typeof v === 'string') {
+            bytes += v.length * 2;
         }
-        else if (typeof value === 'number') {
+        else if (typeof v === 'number') {
             bytes += 8;
         }
         else if
             (
-            typeof value === 'object'
-            && objectList.indexOf(value) === -1
+            typeof v === 'object'
+            && objectList.indexOf(v) === -1
         ) {
-            objectList.push(value);
+            objectList.push(v);
 
-            for (var i in value) {
-                stack.push(value[i]);
+            for (var i in v) {
+                stack.push(v[i]);
             }
         }
     }

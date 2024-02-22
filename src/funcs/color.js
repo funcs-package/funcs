@@ -1,9 +1,9 @@
-export function intToHex(color) {
-    return "#" + color.toString(16).padStart(6, '0');
+export function intToHex(int) {
+    return "#" + int.toString(16).padStart(6, '0');
 }
 
-export function hexToInt(color) {
-    return parseInt(color.replace('#', ''), 16);
+export function hexToInt(hex) {
+    return parseInt(hex.replace('#', ''), 16);
 }
 
 export function rgbToHex(r, g, b) {
