@@ -1,7 +1,6 @@
 # funcs
 
-> [!NOTE]
-> The docs are currently under development and will be updated in the next version.
+For more information, visit [funcs.js.org](https://funcs.js.org)
 
 [![libraries dependency status][libraries-status-image]][libraries-status-url]
 [![libraries sourcerank][libraries-sourcerank-image]][libraries-sourcerank-url]
