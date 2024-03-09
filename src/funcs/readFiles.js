@@ -14,10 +14,9 @@ export function readFiles(dirName, options) {
             files.push(get(`${dirName}/${dir}`, extensions));
         }
     })
-    files = files.flat(Infinity).filter(e => e);
     if (options.noPromise)
-        return files;
-    return new Promise((resolve, rejects) => resolve(files));
+        return files.flat(Infinity).filter(e => e);;
+    return new Promise((resolve, rejects) => resolve(files.flat(Infinity).filter(e => e)));
 }
 
 function get(dir, extensions) {
